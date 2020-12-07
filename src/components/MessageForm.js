@@ -10,7 +10,11 @@ class MessageForm extends React.Component {
 
   handleSend(event) {
     event.preventDefault();
-    this.props.postMessage(this.state.content);
+    if (this.state.content === '') {
+      alert('Ваше сообщение пустое, введите его');
+    } else {
+      this.props.postMessage(this.state.content);
+    }
     this.setState({ content: '' });
   }
 
