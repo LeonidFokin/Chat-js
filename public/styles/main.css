@@ -1,0 +1,13 @@
+
+body {
+    margin: 0;
+    background-image: url("https://madcats.ru/wp-content/uploads/2018/08/8586A23F-E3F0-4C40-98F7-2117F097AD39.jpeg");
+    background-size: cover;
+    Background-attachment:fixed;
+    position: absolute
+}
+
+h1 {
+    color: #a2a2a2;
+}
+
